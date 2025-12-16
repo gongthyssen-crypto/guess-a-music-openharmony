@@ -1,0 +1,1 @@
+It is just a simple demo with fixed songs inside the app to choose from ... if you wanna to add more songs,just use internet source instead of local source in case the app is too big too be downloaded
