@@ -1,0 +1,22 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "游戏主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "主入口Ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "猜音乐"
+    },
+
+      {
+        "name": "permission_reason",
+        "value": "需要读取音频文件以播放游戏音效"
+      }
+
+  ]
+}

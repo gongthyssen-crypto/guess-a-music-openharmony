@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/thyss/.ohos/config/openharmony/default_MyApplication6_13JNZaUt1qrlvwb3nYqZOUPeM4gpBY8jIKtpsD56Dbw=.cer",
+          "storePassword": "0000001BE4BBBB77A401023FC894E3774C4ADA45B48B5B570BC3E88D72C9E86999AC4B3139D2D2C5B657CC",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB13B6845D8396D68DD35757245630B05EBEA91705D7AD53423C3D00C239D5906E81B3C3A76B86B",
+          "profile": "C:/Users/thyss/.ohos/config/openharmony/default_MyApplication6_13JNZaUt1qrlvwb3nYqZOUPeM4gpBY8jIKtpsD56Dbw=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/thyss/.ohos/config/openharmony/default_MyApplication6_13JNZaUt1qrlvwb3nYqZOUPeM4gpBY8jIKtpsD56Dbw=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
